@@ -1,0 +1,11 @@
+{
+  "api_key": "AIzaSyAOWcDHEha2UfkgMVCRou4YKTNLIswN8BE",
+  "default_center": {
+    "lat": 13.0827,
+    "lng": 80.2707,
+    "altitude": 450
+  },
+  "default_tilt": 60,
+  "default_heading": 20,
+  "default_range": 1200
+}

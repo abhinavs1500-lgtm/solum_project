@@ -1,0 +1,17 @@
+{
+  "total": 5,
+  "open": 4,
+  "in_progress": 2,
+  "resolved": 1,
+  "by_category": {
+    "Electricity": 1,
+    "Drainage": 2,
+    "Roads": 1,
+    "Telecom": 1
+  },
+  "by_priority": {
+    "Critical": 1,
+    "High": 2,
+    "Medium": 2
+  }
+}

@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0f7a37">
+  <title>Page Not Found · SOLUM</title>
+  <link rel="stylesheet" href="assets/fonts.css">
+  <link rel="stylesheet" href="assets/style.css">
+  <link rel="stylesheet" href="assets/solum.css">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <script>
+    // GitHub Pages SPA redirect: If requested path was a subpage or hash route, direct to it
+    const path = window.location.pathname;
+    if (path.includes('/prepare')) window.location.replace('prepare.html');
+    else if (path.includes('/resolve')) window.location.replace('resolve.html');
+    else if (path.includes('/report')) window.location.replace('report.html');
+    else if (path.includes('/officials')) window.location.replace('officials.html');
+  </script>
+</head>
+<body data-page="404" style="background:#f7f9f7;font-family:inherit;min-height:100vh;display:flex;flex-direction:column;justify-content:center;align-items:center;padding:24px;text-align:center;">
+  <div style="max-width:540px;background:#ffffff;border:1px solid #dce7df;border-radius:18px;padding:48px 32px;box-shadow:0 12px 36px rgba(16,41,30,0.06);">
+    <div style="width:64px;height:64px;background:#eef6f0;border-radius:50%;display:flex;align-items:center;justify-content:center;margin:0 auto 20px;color:#0f7a37;">
+      <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="8" x2="12" y2="12"></line><line x1="12" y1="16" x2="12.01" y2="16"></line></svg>
+    </div>
+    <span style="font-size:12px;font-weight:700;letter-spacing:1px;color:#0f7a37;text-transform:uppercase;">404 · Page Not Found</span>
+    <h1 style="font-size:26px;color:#10291e;margin:12px 0 16px;">The requested SOLUM page could not be found</h1>
+    <p style="font-size:14px;color:#506457;line-height:1.6;margin-bottom:28px;">The resource may have moved, or you may be accessing a route directly. Explore our primary navigation below to continue.</p>
+    <div style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap;">
+      <a href="index.html" style="background:#0f7a37;color:#ffffff;text-decoration:none;font-weight:600;font-size:13px;padding:10px 20px;border-radius:10px;display:inline-block;">Return to Home</a>
+      <a href="prepare.html" style="background:#edf5ee;color:#0f7a37;text-decoration:none;font-weight:600;font-size:13px;padding:10px 20px;border-radius:10px;display:inline-block;">Prepare</a>
+      <a href="resolve.html" style="background:#edf5ee;color:#0f7a37;text-decoration:none;font-weight:600;font-size:13px;padding:10px 20px;border-radius:10px;display:inline-block;">Resolve</a>
+      <a href="report.html" style="background:#edf5ee;color:#0f7a37;text-decoration:none;font-weight:600;font-size:13px;padding:10px 20px;border-radius:10px;display:inline-block;">Report</a>
+      <a href="officials.html" style="background:#edf5ee;color:#0f7a37;text-decoration:none;font-weight:600;font-size:13px;padding:10px 20px;border-radius:10px;display:inline-block;">Officials</a>
+    </div>
+  </div>
+  <p style="margin-top:24px;font-size:12px;color:#889e90;">SOLUM · Grounded GIS & Google Maps 3D Platform</p>
+</body>
+</html>

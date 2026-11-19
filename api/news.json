@@ -1,0 +1,34 @@
+{
+  "region": "Tamil Nadu",
+  "scope": "district",
+  "count": 3,
+  "items": [
+    {
+      "title": "IMD Doppler Radar active across Tamil Nadu basins.",
+      "summary": "Regional Meteorological Centre issues regular monsoon monitoring bulletins for coastal and delta districts.",
+      "publisher": "IMD Regional Centre",
+      "url": "https://mausam.imd.gov.in/chennai/",
+      "kind": "WEATHER BULLETIN",
+      "image_url": "assets/images/news/monsoon-radar.svg",
+      "image_caption": "Illustrative: IMD Doppler radar & monsoon forecast tracking"
+    },
+    {
+      "title": "Stormwater drainage maintenance underway.",
+      "summary": "Pumping units and desilt operations staged across critical catchment arterial routes.",
+      "publisher": "Municipal Administration",
+      "url": "https://chennaicorporation.gov.in/",
+      "kind": "CIVIC INFRASTRUCTURE",
+      "image_url": "assets/images/news/stormwater-drainage.svg",
+      "image_caption": "Illustrative: Municipal stormwater & community preparedness"
+    },
+    {
+      "title": "Wetland & lake buffer conservation guidelines updated.",
+      "summary": "Geospatial 100m catchment boundary verification recommended before planning civic structures.",
+      "publisher": "Tamil Nadu Water Resources",
+      "url": "https://bhuvan.nrsc.gov.in/",
+      "kind": "LAND CONSERVATION",
+      "image_url": "assets/images/news/waterbody-restoration.svg",
+      "image_caption": "Illustrative: Wetland & waterbody conservation"
+    }
+  ]
+}
